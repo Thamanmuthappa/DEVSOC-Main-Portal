@@ -90,13 +90,13 @@ export default function Profile({ data }) {
           </Link>
           <br/>
           <br/>
-          {data.show_certificate ? (
+          {/* {data.show_certificate ? (
             <button className="team-primary-btn profile-btn" onClick={certificate}>
               Download Certificate
             </button>
           ) : (
             <></>
-          )}
+          )} */}
           <Hidden smUp>
             <button
               className="team-primary-btn profile-btn"
